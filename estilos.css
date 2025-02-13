@@ -37,11 +37,11 @@ input[type="checkbox"]:focus {
 }
 
 .banner-2{
-  background-image: url(./img/banner_2.jpg);
+  background-image: url(./img/banner_2.png);
 }
 
 .banner-3{
-  background-image: url(./img/banner_3.jpg);
+  background-image: url(./img/banner_3.png);
 }
 
 .banners-titulo {
