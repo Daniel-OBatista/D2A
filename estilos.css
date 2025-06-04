@@ -45,7 +45,7 @@ input[type="checkbox"]:focus {
 }
 
 .banners-titulo {
-    --bs-bg-opacity: .6;
+    --bs-bg-opacity: .75;
 }
 
 .botao-padrao {
