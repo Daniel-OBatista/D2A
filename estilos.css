@@ -33,15 +33,15 @@ input[type="checkbox"]:focus {
 }
 
 .banner-1 {
-  background-image: url(./img/banner_1.png);
+  background-image: url(./img/banner_1.webp);
 }
 
 .banner-2{
-  background-image: url(./img/banner_2.png);
+  background-image: url(./img/banner_2.webp);
 }
 
 .banner-3{
-  background-image: url(./img/banner_3.png);
+  background-image: url(./img/banner_3.webp);
 }
 
 .banners-titulo {
