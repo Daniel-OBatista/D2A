@@ -91,4 +91,10 @@ input[type="checkbox"]:focus {
   .banner-3 {
     background-size: cover; /* Ajusta a imagem para que ela se encaixe no tamanho da tela */
   }
+
+  #offcanvasNavbarLabel img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+  }
 }
