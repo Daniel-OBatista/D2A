@@ -89,8 +89,6 @@ input[type="checkbox"]:focus {
 
 /* Estilos específicos para telas menores que 500px */
 @media (max-width: 500px) {
-
-
   h2.fw-bold.fs-4 {
     font-size: 1.5rem; /* tamanho adequado para mobile */
     margin-top: 1rem;
