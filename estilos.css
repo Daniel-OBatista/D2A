@@ -93,6 +93,12 @@ input[type="checkbox"]:focus {
     opacity: 1;
     animation: none;
   }
+
+  h2.fw-bold.fs-4 {
+    font-size: 1.5rem; /* tamanho adequado para mobile */
+    margin-top: 1rem;
+    text-align: center;
+  }
   
   .banners {
     min-height: 100dvh; /* Usa viewport dinâmica moderna */
