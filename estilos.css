@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('roboto.woff2') format('woff2');
+  font-display: swap;
+}
+
 body {
   --bege: #E6E0D6;
   --marrom-escuro: #816D4F;
