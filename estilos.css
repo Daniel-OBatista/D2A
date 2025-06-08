@@ -29,7 +29,7 @@ input[type="checkbox"]:focus {
 }
 
 .banners-titulo {
-  --bs-bg-opacity: .2;
+  --bs-bg-opacity: .75;
 }
 
 .banner-1 {
