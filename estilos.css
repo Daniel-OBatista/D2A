@@ -144,4 +144,11 @@ input[type="checkbox"]:focus {
     height: 75px;
     object-fit: contain;
   }
+
+  .whatsapp-float {
+    padding: 10px;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+  }
 }
