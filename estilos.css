@@ -69,20 +69,24 @@ input[type="checkbox"]:focus {
 
 [data-bs-theme="dark"] {
   color: white;
-  .nav-link, .card-body, .offcanvas, .accordion, .btn {
-    --bs-nav-link-color: white;
-    --bs-card-color: white;
-    --bs-offcanvas-color: white;
-    --bs-body-color: white;
-    --bs-body-color: white;
-  }
+}
 
-  #offcanvasNavbarLabel img {
+[data-bs-theme="dark"] .nav-link,
+[data-bs-theme="dark"] .card-body,
+[data-bs-theme="dark"] .offcanvas,
+[data-bs-theme="dark"] .accordion,
+[data-bs-theme="dark"] .btn {
+  --bs-nav-link-color: white;
+  --bs-card-color: white;
+  --bs-offcanvas-color: white;
+  --bs-body-color: white;
+}
+
+[data-bs-theme="dark"] #offcanvasNavbarLabel img {
   width: 50px;
   height: 50px;
 }
 
-}
 
 /* Estilos específicos para telas menores que 500px */
 @media (max-width: 500px) {
