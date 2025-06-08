@@ -82,18 +82,12 @@ input[type="checkbox"]:focus {
 @media (max-width: 500px) {
 
   .banners {
-    height: 90vh; /* Ajusta a altura para 60% da tela */
+    min-height: 100dvh; /* Usa viewport dinâmica moderna */
     background-attachment: scroll; /* Desativa o fundo fixo, pois pode causar problemas em telas pequenas */
   }
 
-  .banner-1 {
-    background-size: cover; /* Ajusta a imagem para que ela se encaixe no tamanho da tela */
-  }
-
-  .banner-2 {
-    background-size: cover; /* Ajusta a imagem para que ela se encaixe no tamanho da tela */
-  }
-
+  .banner-1,
+  .banner-2,
   .banner-3 {
     background-size: cover; /* Ajusta a imagem para que ela se encaixe no tamanho da tela */
   }
