@@ -90,10 +90,10 @@ input[type="checkbox"]:focus {
 /* Estilos específicos para telas menores que 500px */
 @media (max-width: 500px) {
   h2 {
-    opacity: 0;
-    animation: fadeIn 2s ease 1s forwards;
-  }  
-
+    opacity: 1;
+    animation: none;
+  }
+  
   .banners {
     min-height: 100dvh; /* Usa viewport dinâmica moderna */
     background-attachment: scroll; /* Desativa o fundo fixo, pois pode causar problemas em telas pequenas */
