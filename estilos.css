@@ -87,9 +87,12 @@ input[type="checkbox"]:focus {
   height: 50px;
 }
 
-
 /* Estilos específicos para telas menores que 500px */
 @media (max-width: 500px) {
+  h2 {
+    opacity: 0;
+    animation: fadeIn 2s ease 1s forwards;
+  }  
 
   .banners {
     min-height: 100dvh; /* Usa viewport dinâmica moderna */
